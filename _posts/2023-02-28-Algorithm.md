@@ -128,3 +128,63 @@ A new request is sent to the service instance with the least concurrent connecti
 
 6. **Least response time**
 A new request is sent to the service instance with the fastest response time.
+
+<br/>
+
+---
+
+<br/>
+
+### 6. [Graph Algorithm](https://twitter.com/Franc0Fernand0/status/1630960825258131461)
+
+> Graph algorithms are used in many real-world scenarios.
+>
+> Here are 5 standard graph algorithms and their significant use cases:
+
+![Graph Algorithm](https://pbs.twimg.com/media/FqJWOA6WcAQz3OP?format=jpg&name=large)
+
+1. **Breadth-first search**
+- It's a traversal algorithm implemented using a queue data structure.
+- It starts from a node and first explores all its adjacent nodes.
+- Then it explores all nodes two steps away from the starting one, and so on.
+- ***Applications of BFS are***:
+    - build web pages indexes in web crawlers
+    - discove neighbour nodes in p2p networks
+    - find neighboring places in GPS navigation systems
+
+2. **Deepth First Search**
+    - It's a traversal algorithm implemented using a stack data structure.
+    - It starts from a node and explores as far as possible along each path.
+    - When no more nodes exist to explore in the current path, it retraces.
+    - ***Applications of DFS are***:
+        - find a path between 2 nodes
+        - detect cycles in a graph
+        - topological sorting
+        - solve maze or sudoku puzzles
+
+3. **Shortest path**
+    - It's a traversal algorithm that calculates the shortest path between two nodes.
+    - The shortest path minimizes the sum of the weights on the traveled edges.
+    - There are two main algorithms: Dijkstra and Bellman–Ford.
+    - ***Applications of the Shortest path are***:
+        - find travelling paths in navigation systems
+        - solve the min-delay path problem in networking
+        - finding the best route from one point to another in video games
+
+4. **Topological Sorting**
+    - It's a graph theory algorithm finding an order in which visiting the nodes.
+    - It linearly orders the nodes of a directed graph so that for each edge x -> y, vertex x precedes y.
+    - ***Applications of the Topological sorting are***:
+        - scheduling interdependent job 
+        - data serialisation and sentence ordering
+        - compilation tasks ordering and symbols dependencies resolution
+
+5. **Minimum spanning tree**
+    - It's a graph theory algorithm finding a subset of the edges connecting all the nodes.
+    - Such edges have no cycles and minimum sum of weights.
+    - Every connected and undirected graph has at least one spanning tree.
+    - ***Applications of the Minimum spanning tree are***:
+        - network design
+        - image registration and object tracking
+        - analysis of graph-based data clusters
+
