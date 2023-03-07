@@ -1,7 +1,6 @@
 # Setup
 title: What - Why - How
-description: >- # this means to ignore newlines until "baseurl:"
-  Chuangcius's collections. All from internet.
+description: Chuangcius's collections.
 paginate: 1
 baseurl: ""
 permalink: pretty
