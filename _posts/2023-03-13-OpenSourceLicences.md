@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Open Source Licences"
-date:   2023-03-12 12:21:49 +0800
+date:   2023-03-13 12:21:49 +0800
 categories: "open-source licences"
 ---
 
