@@ -5,13 +5,15 @@ date:   2023-03-14 20:45:12 +0800
 categories: kubernetes
 ---
 
-![Kubernetes Architecture](https://images.clickittech.com/2020/wp-content/uploads/2022/04/13202329/Diagram-55.jpg)
+<div style="width: 100%; height: 650px; display: flex; justify-content: center; align-items: center;">
+    <img alt="Kubernetes Architecture Diagram" style="max-width: 150%" src="/assets/k8s/architecture.png">
+</div>
 
 > Source: _[Kubernetes Architecture Explained](https://devopscube.com/kubernetes-architecture-explained/)_
 >
 > The following Kubernetes architecture diagram shows all the components of the Kubernetes cluster and how external systems connect to the Kubernetes cluster.
 
-![Kubernetes Architecture](/assets/k8s/architecture.png)
+![Kubernetes Architecture](https://images.clickittech.com/2020/wp-content/uploads/2022/04/13202329/Diagram-55.jpg)
 
 -  ### Control Plane Components
 <br/>
