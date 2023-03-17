@@ -5,7 +5,7 @@ date:   2023-03-08 18:32:59 +0800
 categories: authenticator "system design"
 ---
 
-### [How does 𝐆𝐨𝐨𝐠𝐥𝐞 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐨𝐫 work?](https://twitter.com/alexxubyte/status/1579497349490954240)
+### 1. [How does 𝐆𝐨𝐨𝐠𝐥𝐞 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐨𝐫 work?](https://twitter.com/alexxubyte/status/1579497349490954240)
 
 > Google Authenticator is a software-based authenticator that implements a two-step verification service. 
 > It is commonly used for logging into our accounts when 2-factor authentication is enabled.
@@ -37,3 +37,9 @@ categories: authenticator "system design"
 > ***Can the 6-digit password be guessed by hackers?***
 > - No. The password has 6 digits, so the generated password has 1 million combinations. 
 > - Plus, the password changes every 30s. If hackers want to guess the password in 30 seconds, they need to enter 30,000 combinations per second.
+
+---
+
+### 2. [The Consumer Authentication Strength Maturity Model](https://twitter.com/Shubham_pen/status/1636318562334953472)
+
+![Authentication Model](https://pbs.twimg.com/media/FrVfDc-WIAI_KPj?format=jpg&name=large)
