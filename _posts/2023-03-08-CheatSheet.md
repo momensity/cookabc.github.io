@@ -28,3 +28,14 @@ categories: "cheat sheet"
 ### 3. Cron Expression
 
 ![cron](/assets/images/cron.jpeg)
+
+<br/>
+
+---
+
+<br/>
+
+### 4. [Visual Studio Code shortcuts cheatsheet for Mac, Linux, & Windows](https://twitter.com/ChrisStaud/status/1638435969182445572)
+
+![vscode for mac](https://pbs.twimg.com/media/Frzk1rRWwAU7m8A?format=jpg&name=4096x4096)
+![vscode for win/linux](https://pbs.twimg.com/media/Frzk0iFWIAI2kdp?format=jpg&name=4096x4096)
