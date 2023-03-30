@@ -188,3 +188,63 @@ A new request is sent to the service instance with the fastest response time.
         - image registration and object tracking
         - analysis of graph-based data clusters
 
+<br/>
+
+---
+
+<br/>
+
+### 7. [Binary trees traversal](https://twitter.com/Franc0Fernand0/status/1641089870151180289)
+
+> A binary tree is a computer science data structure consisting of nodes.
+> Each node is an abstract data type storing both data and pointers to other nodes.
+> In a binary tree, a node points to at most two nodes, the left and right children.
+>
+> There are two special kinds of nodes in a binary tree:
+- the one at the top, called the root
+- the ones without children, called leaves
+>
+> All the nodes in the tree are accessible starting from the root. 
+> The depth of a node is how far it is from the root node.
+
+![Binary trees traversal](https://pbs.twimg.com/media/FsZSicUWYAIQtG-?format=jpg&name=large)
+
+**1. One way to traverse a binary tree is using `Depth-first search (DFS)`.**
+> DFS starts at the root and traverses as far down the tree as possible in one direction.
+>
+> Whan it reaches a leaf node, the algorithm goes backward, considering the other direction.
+>
+> Recursion makes this operation of moving back up the tree simple and elegant.
+
+There are 3 ways to perform DFS according to the order to visit a node and its children.
+
+- ***Preorder*** traversal visit first a node and then its children.
+
+```javascript
+print(data)
+func(node.left)
+func(node.right)
+```
+
+- ***Inorder*** traversal visits first the left child, the node, and finally the right child.
+
+```javascript
+func(node.left)
+print(data)
+func(node.right)
+```
+
+- ***Postorder*** traversal visits first the children and then the node.
+
+```javascript
+func(node.left)
+func(node.right)
+print(data)
+```
+
+> Switching between the above traversals requires only changing the position of the recursive calls.
+
+**2. An alternative way to traverse a binary tree is using `Breadth-first search (BFS)`.**
+> BFS starts at the root and traverses all nodes at a depth level before moving on to the next one.
+>
+> The standard way to implement BFS is using a queue, thanks to its FIFO way of working.
