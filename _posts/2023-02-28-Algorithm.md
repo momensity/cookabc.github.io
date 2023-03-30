@@ -207,7 +207,7 @@ A new request is sent to the service instance with the fastest response time.
 > All the nodes in the tree are accessible starting from the root. 
 > The depth of a node is how far it is from the root node.
 
-![Binary trees traversal](https://pbs.twimg.com/media/FsZSicUWYAIQtG-?format=jpg&name=large)
+![Binary trees traversal](https://pbs.twimg.com/media/FsZWeNRXwAAZxhJ?format=jpg&name=large)
 
 **1. One way to traverse a binary tree is using `Depth-first search (DFS)`.**
 > DFS starts at the root and traverses as far down the tree as possible in one direction.
